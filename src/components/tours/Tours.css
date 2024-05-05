@@ -1,0 +1,20 @@
+/* Tours-specific styles */
+.tours-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tours-container h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.tours-container img {
+    width: 100%;
+    max-width: 400px; /* Adjust maximum width as needed */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    margin-bottom: 10px;
+}

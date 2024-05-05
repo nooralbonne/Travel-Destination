@@ -1,0 +1,29 @@
+.footer-container {
+    padding: 20px;
+    background-color: hsl(31, 78%, 50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.social-media-links a {
+    color: #fff;
+    text-decoration: none; /* Remove underline */
+    margin: 0 10px; /* Add margin to space out links */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+    font-size: 15px; /* Adjust icon size */
+}
+
+.social-media-links a:hover {
+    color: #ccc; /* Change color on hover */
+}
+
+/* Font and alignment for both header and footer */
+.footer-container p {
+    color: #fff;
+    /* font-family: 'Roboto Slab', serif; */
+    font-weight: 300;
+    text-transform: capitalize;
+}
+

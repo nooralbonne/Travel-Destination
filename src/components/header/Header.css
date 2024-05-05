@@ -1,0 +1,27 @@
+.header-section {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9f9f9;
+    background-color: black;
+    background-image: url('./img4.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden; 
+    text-shadow: 20px 10px 10px rgba(15, 11, 11, 0.571); /* Add shadow effect */
+
+}
+  
+.header-section-title {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 80px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
