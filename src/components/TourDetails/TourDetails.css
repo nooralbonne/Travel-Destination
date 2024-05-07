@@ -1,0 +1,13 @@
+.tour-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure the container covers the full viewport height */
+}
+
+.card {
+    max-width: 100x; /* Adjust the maximum width of the card as needed */
+    padding: 10px;
+    text-align: center; 
+    align-items: center;
+}
