@@ -1,27 +1,17 @@
+import React from 'react';
 import Header from "../header/Header";
 import Footer from "../footer/Footer";
 import Tours from "../tours/Tours";
-const toursData = require('../../data/db.json');
 
-function Home(){
+
+function Home() {
     return (
         <>
-        <Header/>
-
-        {
-      toursData.map(element=>{
-        return(
-          <Tours TourName={element.name} TourImage ={element.image}/>
-        )
-      })
-     }
-
-        <Footer/>
-        
-
-       
-        </>  
-    )
+            <Header />
+             <Tours/>
+            <Footer />
+        </>
+    );
 }
 
 export default Home;
